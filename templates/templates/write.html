@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/write.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Write your blog!</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <form action="#" method="POST" class = "my-form">
+                <input type="text" name ="name" value = "{{name}}" placeholder="Blog name.." />
+                <br>
+                <textarea name="blog" id="text" cols="30" rows="10" method = "POST">{{text}}</textarea>
+                <br>
+                <input type="submit" value="Save blog" class = "button"/>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

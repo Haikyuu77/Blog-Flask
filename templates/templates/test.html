@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sample page</title>
+        <link rel="stylesheet" href="../static/css/test.css">
+    </head>
+    <body>
+        <header>
+            <h1>BLOGS</h1>
+        </header>
+        <section class = "blog-box">
+            {%for d in data%} 
+            <div class="outerbox">
+                <div class="boxname">
+                    {{d.blog_name}}
+                </div>
+                <div class="boxblog">
+                    {{d.blog}}
+                </div>
+            </div>
+            {%endfor%}
+        </section>
+        <script src="../static/scripts/test.js"></script>
+    </body>
+</html>
