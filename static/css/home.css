@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6em;
+    text-align: center;
+    margin: 0;
+    font-family:'Raleway',sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+    
+}
+header h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: .5em;
+    font-size: 1rem;
+
+}
+
+@media (min-width:60rem) {
+    header h1{
+        float: left;
+        font-size: 2em;
+    }
+    nav{
+        padding: 1.2em;
+        float: right;
+    }
+    nav a{
+        font-size:1.2em;
+    }
+}
+
+
+.bg{
+    height: 100vh;
+    background-image: url(../images/book.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+}
+
+.bg p{
+    margin-top : 4em;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.bg span{
+    display: block;
+    font-size: .7em;
+    font-weight: 600;
+    margin-top : 1em;
+}
+.bg a{
+    font-size: 1em;
+    color: rgba(247, 250, 253, 0.801);
+}
+
+@media (min-width:60rem){
+    .bg p{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .bg span{
+        font-weight: 300;
+    }
+    .bg a{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+
+.button{
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: .5em;
+    font-weight: 600;
+}
+
+.button:hover,
+.button:focus{
+    background-color: rgba(94, 90, 94, 0.651);
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media(min-width:60rem){
+    .button{
+        font-size: 1.5em;
+    }
+}

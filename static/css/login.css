@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    min-height:100%;
+    line-height: 1.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    background-color: black;
+}
+
+.container{
+    width: 50%;
+    text-align:center;
+    margin :auto;
+    overflow: hidden;
+}
+#main-header{
+    margin-top:140px;
+}
+#main-header h1{
+    color:rgb(221, 210, 210);
+    text-align:center;
+    font-size: 50px;
+}
+.form input{
+    color:antiquewhite;
+    background-color: black;
+    border: 1px solid rgb(37, 37, 37);
+    padding: 25px 140px 25px 10px;
+    margin-bottom: 20px;
+    text-align:left;
+    font-size: 16px;
+}
+.form input[type = "submit"]{
+    background-color:rgb(49, 77, 114);
+    color:rgb(175, 171, 171);
+    border:0;
+    padding: 15px 140px 15px 140px;
+    text-align:center;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgba(85, 134, 207, 0.897);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+p{
+    color: white;
+}
+
+/*.image{
+    width:80%;
+    height:1000px;
+    margin:auto;
+    padding: 20px;
+    border : 10px solid black;
+    background-image:url('../images/fly.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-y: -500px;
+    background-position-x: 5px;
+}*/

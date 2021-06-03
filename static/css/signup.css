@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    min-height:100%;
+    line-height: 1.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    background-color: black;
+}
+
+.container{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#main-header{
+    margin-top: 140px;   
+}
+
+#main-header{
+    text-align: center;
+    color: rgb(212, 209, 209);
+    font-size: 15px;
+}
+.form{
+    width: 100%;
+}
+
+.form input{
+    color:antiquewhite;
+    background-color: black;
+    border: 1px solid rgb(37, 37, 37);
+    padding: 29px 200px 20px 10px;
+    margin-bottom: 20px;
+    text-align:left;
+    font-size: 16px;
+}
+
+.form input[type = "submit"]{
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(49, 77, 114);
+    color: rgb(179, 176, 176);
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}
