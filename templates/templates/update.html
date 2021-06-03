@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>update</title>
+    <link rel="stylesheet" href="../static/css/test.css">
+</head>
+<body>
+    <form method="POST" class = "center">
+        <input type="text" name = "update" placeholder="Blog name to update" class = "ipt"/>
+        <input type = "submit" value="Update" class = "btn"/>
+    </form>
+    {% if content%}
+        <p>{{content}}</p>
+    {%endif%}    
+</body>
+</html>

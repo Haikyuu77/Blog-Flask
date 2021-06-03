@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Signup</title>
+        <link rel="stylesheet" href="/static/css/signup.css">
+</head>
+<body>
+    <div class="container">
+        <header id="main-header">
+            <h1>Create your account</h1>
+        </header>
+        <section id ="main-section">
+            <form class="form" action="#" method="POST">
+                <input type="text" name="nm" placeholder="Name"/>
+                <br>
+                <input type="email" name="email" placeholder="Email"/>
+                <br>
+                <input type="password" name="password" placeholder="Password"/>
+                <br>
+                <input type="submit" value="Sign up"/>
+            </form>
+            {% with msg = get_flashed_messages()%} 
+                {% for m in msg%}
+                    <p>{{m}}</p>
+                {% endfor %}
+            {% endwith %}
+        </section>
+    </div>
+</body>
+</html>
