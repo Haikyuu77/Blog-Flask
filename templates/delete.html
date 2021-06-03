@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delete</title>
+    <link rel="stylesheet" href="../static/css/test.css">
+</head>
+<body>
+    <form action = "#" method="POST" class="center">
+        <input type="text" name = "blogname" placeholder="Enter blog name" class="ipt"/>
+        <input type = "submit" value= "Delete" class="btn"/>
+        {% if content %} 
+            <p>{{content}}</p>
+        {%endif%}
+    </form>
+</body>
+</html>

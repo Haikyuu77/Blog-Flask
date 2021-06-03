@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loginpage</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+    <div class = "container">
+        <header id="main-header">        
+            <h1>Log in to Blog</h1>
+        </header>
+        <section id = "main-section">
+            <form  class ="form" action="#" method="POST">
+                <input type="email" name="email" placeholder="Email"/>
+                <br>
+                <input type="password" name="password" placeholder="Password"/>
+                <br>
+                <input type="submit" value="Log in"/>
+            </form>
+                <a href="/signup">Sign up for blog</a>
+        </section>
+        {%with msg = get_flashed_messages()%} 
+            {%for m in msg%}    
+                <p>{{m}}</p>
+            {%endfor%} 
+        {%endwith%}
+    </div>
+    <div class = "image"></div>
+</body>
+</html>
